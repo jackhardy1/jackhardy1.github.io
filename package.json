@@ -1,0 +1,38 @@
+{
+  "name": "insta-mean-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd app && ./node_modules/http-server/bin/http-server",
+    "webdriver-manager": "cd app && ./node_modules/protractor/bin/webdriver-manager",
+    "protractor": "cd app && ./node_modules/protractor/bin/protractor",
+    "karma": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackhardy1/insta-mean-frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackhardy1/insta-mean-frontend/issues"
+  },
+  "homepage": "https://github.com/jackhardy1/insta-mean-frontend#readme",
+  "devDependencies": {
+    "jasmine-core": "^2.5.0",
+    "jasmine-spec-reporter": "^2.7.0",
+    "karma": "^1.2.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-spec-reporter": "0.0.26",
+    "protractor": "^4.0.4",
+    "protractor-http-mock": "^0.9.0"
+  },
+  "dependencies": {
+    "http-server": "^0.9.0",
+    "ng-image-upload": "^0.1.0"
+  }
+}

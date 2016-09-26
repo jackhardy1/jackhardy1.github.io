@@ -1,0 +1,15 @@
+<h1 class="title-font2">Splitter</h1>
+    <div ng-show="isSignedIn()">
+      <div class="box">
+        <p class="title3" id="title"><b>Welcome {{getEmail()}} </b></p>
+      </div>
+    </div>
+
+    <div ng-hide="isSignedIn()">
+      <a class='button button-stable button-full' ng-href="#/users/new"><b>Sign up</b></a>
+      <a class='button button-stable button-full' ng-href="#/users/log_in"><b>Sign in</b></a>
+    </div>
+
+    <div ng-show="isSignedIn()">
+      <a class="button button-dark button-full bottom-button" ng-click='handleSignOutBtnClick()'>Sign out<i class="icon ion-android-exit"></i></a>
+    </div>

@@ -1,0 +1,17 @@
+<a ng-href="#/"><img src="img/splitter_logo.png" class="logo"></a>
+<p class="title-font3"> sign in </p>
+<form ng-submit="handleLoginBtnClick(loginForm)" role="form" ng-init="loginForm = {}">
+  <div class="form-group margin-box">
+    <label class="item item-input">
+    <input type="email" placeholder="E-mail" name="email" ng-model="loginForm.email" required="required" class="form-control"/>
+    </label>
+  </div>
+
+  <div class="form-group margin-box">
+    <label class="item item-input">
+    <input type="password" placeholder="Password" name="password" ng-model="loginForm.password" required="required" class="form-control"/>
+    </label>
+  </div>
+
+  <p class="margin-box"><button type="submit" class="button button-block button-dark"><b>Submit</b></button></p>
+</form>
