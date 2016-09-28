@@ -1,20 +1,22 @@
-<body id="github-main">
+<body id="centred-items">
 
-  <img ng-src="{{userInfo.avatar_url}}" height="200" width="200"/>
-  <p> Number of Repos: {{userInfo.public_repos}} </p>
-  <p> Followers: {{userInfo.followers}} </p>
-  <p> Updated at: {{userInfo.updated_at | date :  "longDate"}} </p>
+  <div id="centred-items">
+    <img ng-src="{{userInfo.avatar_url}}" height="200" width="200"/>
+    <p> Number of Repos: {{userInfo.public_repos}} </p>
+    <p> Followers: {{userInfo.followers}} </p>
+    <p> Updated at: {{userInfo.updated_at | date :  "longDate"}} </p>
 
-  <div> REPOS:
-    <select ng-model="orderList">
-      <option value="name">Name</option>
-      <option value="language">Language</option>
-      <option value="-created_at">Newest</option>
-      <option value="created_at">Oldest</option>
-    </select>
+     REPOS:
+      <select ng-model="orderList">
+        <option value="name">Name</option>
+        <option value="language">Language</option>
+        <option value="-created_at">Newest</option>
+        <option value="created_at">Oldest</option>
+      </select>
+  </div>
 
     <ul>
-      <li ng-repeat="repo in repos | orderBy: language">
+      <li id="centred-items" ng-repeat="repo in repos | orderBy: language">
         Name: {{repo.name}}
         <br/>
         Language: {{repo.language}}

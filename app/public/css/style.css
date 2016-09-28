@@ -10,6 +10,12 @@ footer {
     height: 10%;
 }
 
-#github-main {
-  text-align: center;
+#centred-items {
+  color: #333;
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 10px;
+  box-shadow: 0 10px 10px 2px rgba(0,0,0,0.3);
 }
