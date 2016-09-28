@@ -7,7 +7,7 @@ angular.module('jackApp')
   var API_LINK = "https://www.codewars.com/api/v1/users/Jack%20Hardy?access_key=" + API_ACCESS_KEY
 
   self.getInfo = function(){
-    return $http.get(API_LINK)
+    return $http.get('app/public/codewarsInfo.json')
     .then(_handleResponseFromApi);
   }
 

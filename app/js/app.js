@@ -22,5 +22,10 @@ angular.module('jackApp', ['ui.router'])
       url: '/codewars',
       templateUrl: '/app/js/templates/codewars.html',
       controller: 'CodewarsApiController'
+    })
+    .state('twitter', {
+      url: '/twitter',
+      templateUrl: '/app/js/templates/twitter.html'
     });
+
   }]);

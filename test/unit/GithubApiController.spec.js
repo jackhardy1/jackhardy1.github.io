@@ -6,14 +6,14 @@ describe('GithubApiController', function() {
   beforeEach(inject(function($rootScope, _GithubApiService_, $controller, $httpBackend, $stateParams) {
     mockRoutes($httpBackend);
     scope = $rootScope.$new();
-    ctrl = $controller('ItemController');
+    ctrl = $controller('GithubApiController');
     GithubApiService = _GithubApiService_;
     httpBackend = $httpBackend;
   }));
 
-  it('fetches items from API and stores in the controller', function() {
-    httpBackend.expectGET("http://splitter-backend.herokuapp.com/bills/1/items").respond(itemData);
-    ctrl.getItems(billId);
+  it('fetches github user info from the api', function() {
+    httpBackend.expectGET("https://api.github.com/users/jackhardy1").respond(itemData);
+    ctrl.getItems();
     httpBackend.flush();
     expect(ctrl.items).toEqual(itemData);
   });

@@ -8,8 +8,8 @@ This is a personal webpage built with AngularJS, which uses various APIs to disp
 
 ### Running the servers:
 
-to run server, run npm run start
-for webdriver, run npm run webdriver-manager
+to run server, run 'npm run start'
+for webdriver, run 'npm run webdriver-manager'
 
 #### Tests
 

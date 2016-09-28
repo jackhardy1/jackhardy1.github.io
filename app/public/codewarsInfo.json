@@ -1,0 +1,36 @@
+{ "username": "Jack Hardy",
+  "name": "",
+  "honor": 307,
+  "clan": "makers academy",
+  "leaderboardPosition": 3153,
+  "skills": [
+  "ruby",
+  "javascript"
+  ],
+  "ranks": {
+  "overall": {
+  "rank": -5,
+  "name": "5 kyu",
+  "color": "yellow",
+  "score": 490
+  },
+  "languages": {
+  "ruby": {
+  "rank": -5,
+  "name": "5 kyu",
+  "color": "yellow",
+  "score": 476
+  },
+  "javascript": {
+  "rank": -8,
+  "name": "8 kyu",
+  "color": "white",
+  "score": 14
+  }
+  }
+  },
+  "codeChallenges": {
+  "totalAuthored": 0,
+  "totalCompleted": 113
+  }
+}
