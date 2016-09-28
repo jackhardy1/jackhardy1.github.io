@@ -1,0 +1,15 @@
+#home body {
+  padding-left: 80px;
+}
+
+footer {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-right: -50%;
+    height: 10%;
+}
+
+#github-main {
+  text-align: center;
+}

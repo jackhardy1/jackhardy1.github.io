@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Jack Hardy</title>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="/app/public/css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" type="text/css" href="/app/public/css/style.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!--  -->
+  </head>
+
+  <body lang="en" ng-app="jackApp">
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/app/public/js/materialize.min.js"></script>
+    <script src="/app/bower_components/angular/angular.js"></script>
+    <script src="/app/bower_components/angular-cookie/angular-cookie.js"></script>
+    <script src="/app/bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <!-- JS (load angular, ui-router, and our custom js file) -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+    <script type="text/javascript" src="/app/js/app.js"></script>
+    <script type="text/javascript" src="/app/js/controllers/GithubApiController.js"></script>
+    <script type="text/javascript" src="/app/js/services/GithubApiService.js"></script>
+    <script type="text/javascript" src="/app/js/controllers/GuardianApiController.js"></script>
+    <script type="text/javascript" src="/app/js/services/GuardianApiService.js"></script>
+    <script type="text/javascript" src="/app/js/controllers/CodewarsApiController.js"></script>
+    <script type="text/javascript" src="/app/js/services/CodewarsApiService.js"></script>
+
+    <!-- TOP-NAVIGATION -->
+    <nav>
+      <div class="nav-wrapper">
+        <a href="/" class="brand-logo"><i class="material-icons">cloud</i>Jack Hardy</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a ui-sref="home">Home</a></li>
+          <li><a ui-sref="github">Github</a></li>
+          <li><a ui-sref="tech_news">Tech News</a></li>
+          <li><a ui-sref="CodeWars">Code Wars</a><li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- MAIN-BODY -->
+    <div ui-view></div>
+
+    <!-- FOOTER -->
+    <footer>
+      <i class="material-icons">code</i>
+      <p>Jack Hardy</p>
+      <p>Contact information: <a href="mailto:jackhardy1@gmail.com">
+      jackhardy1@gmail.com</a>.</p>
+    </footer>
+
+  </body>
+</html>

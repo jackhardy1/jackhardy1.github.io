@@ -1,12 +1,12 @@
 {
-  "name": "insta-mean-frontend",
+  "name": "jack-hardy",
   "description": "",
   "main": "index.js",
   "authors": [
     "Jack Hardy <jackhardy1@gmail.com>"
   ],
   "license": "ISC",
-  "homepage": "https://github.com/jackhardy1/insta-mean-frontend",
+  "homepage": "https://github.com/jackhardy1/jackhardy1.github.io",
   "ignore": [
     "**/.*",
     "node_modules",

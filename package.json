@@ -1,26 +1,26 @@
 {
-  "name": "insta-mean-frontend",
+  "name": "jack-hardy",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cd app && ./node_modules/http-server/bin/http-server",
-    "webdriver-manager": "cd app && ./node_modules/protractor/bin/webdriver-manager",
-    "protractor": "cd app && ./node_modules/protractor/bin/protractor",
+    "start": "./node_modules/http-server/bin/http-server",
+    "webdriver-manager": "./node_modules/protractor/bin/webdriver-manager",
+    "protractor": "./node_modules/protractor/bin/protractor",
     "karma": ""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jackhardy1/insta-mean-frontend.git"
+    "url": "git+https://github.com/jackhardy1/jackhardy1.github.io.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jackhardy1/insta-mean-frontend/issues"
+    "url": "https://github.com/jackhardy1/jackhardy1.github.io/issues"
   },
-  "homepage": "https://github.com/jackhardy1/insta-mean-frontend#readme",
+  "homepage": "https://github.com/jackhardy1/jackhardy1.github.io#readme",
   "devDependencies": {
     "jasmine-core": "^2.5.0",
     "jasmine-spec-reporter": "^2.7.0",
